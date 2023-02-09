@@ -1,0 +1,9 @@
+ {
+ age= as.integer(readline(prompt = "Enter your age :"))
+ if(age>=18)
+ print("eligible")
+ else
+ print("not eligible")
+ }
+Enter your age :12
+[1] "not eligible"
