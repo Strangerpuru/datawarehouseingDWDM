@@ -1,0 +1,11 @@
+{
+a=as.integer(readline(prompt="enter a number"))
+b=as.integer(readline(prompt="enter another number"))
+if(a>b)
+print("a is greater")
+else
+print("b is grater")
+}
+enter a number12
+enter another number23
+[1] "b is grater"
