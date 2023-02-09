@@ -1,0 +1,9 @@
+ {
+a=as.integer(readline(prompt="enter a number="))
+if((a%%2)==0)
+print("it is even number")
+else
+print("it is odd number")
+}
+enter a number=10
+[1] "it is even number"
