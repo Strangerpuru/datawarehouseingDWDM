@@ -1,0 +1,65 @@
+== Run information ===
+
+Scheme:       weka.classifiers.trees.DecisionStump 
+Relation:     iris
+Instances:    150
+Attributes:   5
+              sepallength
+              sepalwidth
+              petallength
+              petalwidth
+              class
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Decision Stump
+
+Classifications
+
+petallength <= 2.45 : Iris-setosa
+petallength > 2.45 : Iris-versicolor
+petallength is missing : Iris-setosa
+
+Class distributions
+
+petallength <= 2.45
+Iris-setosa	Iris-versicolor	Iris-virginica	
+1.0	0.0	0.0	
+petallength > 2.45
+Iris-setosa	Iris-versicolor	Iris-virginica	
+0.0	0.5	0.5	
+petallength is missing
+Iris-setosa	Iris-versicolor	Iris-virginica	
+0.3333333333333333	0.3333333333333333	0.3333333333333333	
+
+
+Time taken to build model: 0 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         100               66.6667 %
+Incorrectly Classified Instances        50               33.3333 %
+Kappa statistic                          0.5   
+Mean absolute error                      0.2222
+Root mean squared error                  0.3333
+Relative absolute error                 50      %
+Root relative squared error             70.7107 %
+Total Number of Instances              150     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Iris-setosa
+                 1.000    0.500    0.500      1.000    0.667      0.500    0.750     0.500     Iris-versicolor
+                 0.000    0.000    ?          0.000    ?          ?        0.750     0.500     Iris-virginica
+Weighted Avg.    0.667    0.167    ?          0.667    ?          ?        0.833     0.667     
+
+=== Confusion Matrix ===
+
+  a  b  c   <-- classified as
+ 50  0  0 |  a = Iris-setosa
+  0 50  0 |  b = Iris-versicolor
+  0 50  0 |  c = Iris-virginica
+
