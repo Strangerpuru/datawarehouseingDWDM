@@ -1,0 +1,52 @@
+== Run information ===
+
+Scheme:       weka.clusterers.FarthestFirst -N 2 -S 1
+Relation:     weather.symbolic
+Instances:    14
+Attributes:   5
+              outlook
+              temperature
+              humidity
+              windy
+Ignored:
+              play
+Test mode:    split 80% train, remainder test
+
+
+=== Clustering model (full training set) ===
+
+
+FarthestFirst
+==============
+
+Cluster centroids:
+
+Cluster 0
+	 overcast mild high TRUE
+Cluster 1
+	 rainy cool normal FALSE
+
+
+
+Time taken to build model (full training data) : 0 seconds
+
+=== Model and evaluation on test split ===
+
+FarthestFirst
+==============
+
+Cluster centroids:
+
+Cluster 0
+	 rainy mild high FALSE
+Cluster 1
+	 overcast cool normal TRUE
+
+
+
+Time taken to build model (percentage split) : 0 seconds
+
+Clustered Instances
+
+0      3 (100%)
+
