@@ -1,0 +1,26 @@
+> {
++ normalized_value = (value - min) / (max - min)
++ normalized_value_100 = (100 - 60) / (100 - 60) = 1
++ normalized_value_70 = (70 - 60) / (100 - 60) = 0.16666
++ normalized_value_60 = (60 - 60) / (100 - 60) = 0
++ normalized_value_90 = (90 - 60) / (100 - 60) = 0.5
++ normalized_value_90 = (90 - 60) / (100 - 60) = 0.5
++ mean = (100 + 70 + 60 + 90 + 90) / 5 = 84
++ standard_deviation = sqrt(((100 - 84)^2 + (70 - 84)^2 + (60 - 84)^2 + (90 - 84)^2 + (90 - 84)^2) / 5) = 15.652475842498529
++ normalized_value = (value - mean) / standard_deviation
++ normalized_value_100 = (100 - 84) / 15.652475842498529 = 0.63837235555955
++ normalized_value_70 = (70 - 84) / 15.652475842498529 = -0.7647058823529411
++ normalized_value_60 = (60 - 84) / 15.652475842498529 = -1.3048128342245989
++ normalized_value_90 = (90 - 84) / 15.652475842498529 = 0.14447592067988667
++ normalized_value_90 = (90 - 84) / 15.652475842498529 = 0.14447592067988667
++ mean = (100 + 70 + 60 + 90 + 90) / 5 = 84
++ mean_absolute_deviation = ((abs(100 - 84) + abs(70 - 84) + abs(60 - 84) + abs(90 - 84) + abs(90 - 84)) / 5) = 14
++ normalized_value = (value - mean) / mean_absolute_deviation
++ normalized_value_100 = (100 - 84) / 14 = 0.5714285714285714
++ normalized_value_70 = (70 - 84) / 14 = -0.5
++ normalized_value_60 = (60 - 84) / 14 = -0.42857142857142855
++ normalized_value_90 = (90 - 84) / 14 = 0.2857142857142857
++ normalized_value_90 = (90 - 84
++ }
+"normalized_value_90 = (90 - 84
+}"
